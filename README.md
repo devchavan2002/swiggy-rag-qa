@@ -22,22 +22,7 @@ A Retrieval-Augmented Generation (RAG) based question answering system built usi
 
 ## Architecture
 
-User Query
-    │
-    ▼
-Streamlit UI
-    │
-    ▼
-Retriever (FAISS Vector DB)
-    │
-    ▼
-Relevant Document Chunks
-    │
-    ▼
-LLM (Mistral via Ollama)
-    │
-    ▼
-Generated Answer + Source Pages
+User Query --> Streamlit UI --> Retriever (FAISS Vector DB) --> Relevant Document Chunks --> LLM (Mistral via Ollama) --> Generated Answer + Source Pages
 
 
 ## Installation
